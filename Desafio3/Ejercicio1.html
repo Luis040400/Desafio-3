@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/Ejercicio1.css">
+    
+    <title>Ejercicio1</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="form-group row">
+                <h1>Registro de notas</h1>
+                <div class="col-lg-12 col-xs-12">
+                    <label for="ex1">Nombre</label>
+                    <input class="form-control" id="name" type="text">
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <label for="ex2">Nota 1</label>
+                    <input class="form-control" id="nota1" type="number">
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <label for="ex3">Nota 2</label>
+                    <input class="form-control" id="nota2" type="number">
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <label for="ex2">Nota 3</label>
+                    <input class="form-control" id="nota3" type="number">
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <label for="ex2">Nota 4</label>
+                    <input class="form-control" id="nota4" type="number">
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <label for="ex2">Nota 5</label>
+                    <input class="form-control" id="nota5" type="number">
+                </div>
+                <div class="col-lg-12 col-xs-12" id="divboton">
+                    <button type="button" id="boton" onclick="agregar()"
+                        class="btn btn-primary btn-block">Ingresar</button>
+                </div>
+                <div class="col-lg-12 col-xs-12" id="divboton2">
+                    <button type="button" id="boton" onclick="mostrar()"
+                        class="btn btn-primary btn-block">Mostrar</button>
+                </div>
+                <div id="wrapper">
+                    <div id="info">
+
+                    </div>
+                    <div id="alert">
+
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="js/Ejercicio1.js"></script>
+</html>
